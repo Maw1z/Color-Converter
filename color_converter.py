@@ -92,22 +92,3 @@ def cymk_to_hex(*colorvalues):
     hex_code = rgb_to_hex(r, g, b)
     
     return hex_code
-
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-print(hex_to_rgb("#FFFFFF"))
-print(rgb_to_hex(255, 0, 255))
-print(rgb_to_cmyk(0, 0, 0))
-print(cymk_to_rgb(50, 25, 30, 50))
-hex_to_cymk("#FFFFFF")
-cymk_to_hex(50, 25, 30, 50)
-
-# rgb > hex
-# rgb > cymk
-# 
-# hex > rgb
-# hex > rgb > cymk
-# 
-# cymk > rgb
-# cymk > rgb > hex
